@@ -1,0 +1,55 @@
+{
+  "name": "pilet-1",
+  "version": "1.0.0",
+  "description": "",
+  "keywords": [
+    "pilet"
+  ],
+  "devDependencies": {
+    "@dbeining/react-atom": "4.1.21",
+    "@libre/atom": "1.3.3",
+    "@types/node": "latest",
+    "@types/react": "^17",
+    "@types/react-dom": "^17",
+    "@types/react-router": "^5",
+    "@types/react-router-dom": "^5",
+    "history": "4.10.1",
+    "path-to-regexp": "1.8.0",
+    "piral-app": "file:..\\piral-app\\dist\\emulator\\piral-app-1.0.0.tgz",
+    "piral-cli": "^0.14.29",
+    "piral-cli-webpack": "0.14.29",
+    "react": "17.0.2",
+    "react-dom": "17.0.2",
+    "react-router": "5.3.3",
+    "react-router-dom": "5.3.3",
+    "tslib": "2.4.0",
+    "typescript": "latest"
+  },
+  "scripts": {
+    "start": "pilet debug",
+    "build": "pilet build",
+    "upgrade": "pilet upgrade"
+  },
+  "main": "dist/index.js",
+  "files": [
+    "dist"
+  ],
+  "source": "src/index.tsx",
+  "piral": {
+    "comment": "Keep this section to use the Piral CLI.",
+    "name": "piral-app"
+  },
+  "peerDependencies": {
+    "@dbeining/react-atom": "*",
+    "@libre/atom": "*",
+    "history": "*",
+    "path-to-regexp": "*",
+    "piral-app": "*",
+    "react": "*",
+    "react-dom": "*",
+    "react-router": "*",
+    "react-router-dom": "*",
+    "tslib": "*"
+  },
+  "peerModules": []
+}
